@@ -4,6 +4,7 @@ import './FoodItem.css'
 
 const FoodItem = ({id,name,price,description,image}) => {
     const [itemCount,setItemCount]=useState(0);
+    
   return (
     <div>
       <div className='food-itam'>
